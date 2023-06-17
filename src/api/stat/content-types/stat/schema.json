@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "stats",
+  "info": {
+    "singularName": "stat",
+    "pluralName": "stats",
+    "displayName": "stat"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "countries": {
+      "type": "integer"
+    },
+    "parking_area": {
+      "type": "integer"
+    },
+    "detected_vehicles": {
+      "type": "biginteger"
+    }
+  }
+}

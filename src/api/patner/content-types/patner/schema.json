@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "patners",
+  "info": {
+    "singularName": "patner",
+    "pluralName": "patners",
+    "displayName": "patner"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

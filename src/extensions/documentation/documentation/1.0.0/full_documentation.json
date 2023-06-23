@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-17T11:46:26.230Z"
+    "x-generation-date": "2023-06-22T09:36:35.340Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -25,7 +25,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337/api",
+      "url": "http://localhost:1332/api",
       "description": "Development server"
     }
   ],
@@ -1897,6 +1897,9 @@
           "slug": {
             "type": "string"
           },
+          "subtitle": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -1918,6 +1921,9 @@
                 "type": "string"
               },
               "slug": {
+                "type": "string"
+              },
+              "subtitle": {
                 "type": "string"
               },
               "locale": {
@@ -2051,6 +2057,9 @@
             "type": "string"
           },
           "slug": {
+            "type": "string"
+          },
+          "subtitle": {
             "type": "string"
           },
           "createdAt": {
@@ -3176,6 +3185,9 @@
           "link": {
             "type": "string"
           },
+          "order": {
+            "type": "integer"
+          },
           "locale": {
             "type": "string"
           }
@@ -3209,6 +3221,9 @@
               },
               "link": {
                 "type": "string"
+              },
+              "order": {
+                "type": "integer"
               },
               "locale": {
                 "type": "string"
@@ -3963,6 +3978,9 @@
           },
           "link": {
             "type": "string"
+          },
+          "order": {
+            "type": "integer"
           },
           "createdAt": {
             "type": "string",
